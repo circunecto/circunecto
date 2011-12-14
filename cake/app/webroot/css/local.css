@@ -1,0 +1,105 @@
+/*desaparecemos lso selects */
+#scroll .question_ul .question .input.select {
+  display:none;
+}
+/*Más cortos los inputs del slider en el admin*/
+.shorter-input{
+  width:100px;
+  float:left;
+}
+/*Para mostrar el factor en admin*/
+.elfactor{
+  float:right;
+}
+/*Update*/
+#update{
+  float:right;
+}
+.opciones-situacional{
+  width:303px;
+}
+.lasopt{
+  float:left;
+  height:28px;
+  width: 280px;
+  margin-top: 10px;
+}
+.opt-dif{
+  float:left;
+  height:28px;
+  width:300px;
+  margin-top: 10px;
+}
+.opciones-diferencial{
+  width:640px;
+}
+.rango-dif{
+  width:20px;
+}
+.new-min{
+  width: 300px;
+}
+.new-max{
+  width: 300px;
+}
+.btn-{
+  float:left;
+}
+.submit-options{
+  float:left;
+}
+.add{
+  background:url(images/add.png) no-repeat;
+  cursor:pointer;
+  width: 15px;
+  height: 15px;
+  border: none;
+  margin-right: 4px;
+}
+.less{
+  background:url(images/delete.png) no-repeat;
+  cursor:pointer;
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+.delopt{
+  background:url(images/delete.png) no-repeat;
+  cursor:pointer;
+  width: 15px;
+  height: 21px;
+  border: none;
+  margin-top: 18px;
+}
+.submit-options{
+  background:url(images/btn-enviar.png) no-repeat;
+  cursor:pointer;
+  width: 70px;
+  height: 25px;
+  border: none;
+  margin-top: 50px;
+  margin-left: -71px;
+}
+.number{
+  float:left;
+  margin-top: 10px;
+}
+.fix-save{
+  background-color:#A1C13C;
+  height:100%;
+  width:100%;
+}
+#smaller{
+  font-size: 27px;
+}
+.elcontenedor{
+  padding-top:100px;
+}
+.factor-input{
+  float:left;
+  height:38px;
+  width:350px;
+}
+.contenedor-factor{
+  width:367px;
+}

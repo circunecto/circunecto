@@ -1,0 +1,198 @@
+/* CSS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #bccecf;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+#wrapper{
+  width: 680px;
+  margin:70px auto;
+}
+
+/* -- HEADER -- */
+#header{
+  position:relative;
+}
+
+.logo{
+  background: url(/img/logo-circunecto.png) no-repeat left top;
+  width: 295px;
+  height: 100px;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  margin-left: 17%;   
+  margin-right: auto;
+}
+
+#content{
+  min-height:400px;
+  background: url(/img/img-division.png) no-repeat center top #fff;
+  margin-top: 20px;
+  position: relative;
+}
+
+.infosectiontitle{
+  color: #2D6324;
+  font-size: 17px;
+  font-weight: normal;
+  width: 265px;
+}
+
+.infosectiontitlelong{
+  color: #2D6324;
+  font-size: 17px;
+  font-weight: normal;
+  width: 350px;
+}
+
+.infoseccionfooter{
+  color: #c00;
+  font-size: 12px;
+  font-weight: normal;
+  width: 265px;
+}
+
+.form{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.form label{
+  font-size: 12px;
+  color: #797979;
+  height: 170px;
+}
+.form textarea{
+  background: url(images/bg-input.png) repeat-x left top;
+  width: 358px;
+  height: 170px;
+  border: #acacac solid 1px; 
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-top: 10px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+
+form .required label:after {
+	color: #e32;
+	content: '*';
+	display:inline;
+}
+
+/* ******************************************************************************/
+/* Form errors - retrieved by cakephp default */
+
+form .error {
+	background: #FFDACC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-weight: normal;
+	font-size:12px;
+}
+form .error-message {
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	border-radius: none;
+	border: none;
+	background: none;
+	margin: 0;
+	padding-left: 4px;
+	padding-right: 0;
+}
+form .error,
+form .error-message {
+	color: #9E2424;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+/** Notices and Errors **/
+.message {
+	clear: both;
+	color: #ff0000;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+}
+
+/* ******************************************************************************/
+
+.input-text{
+  background: url(images/bg-input.png) repeat-x left top;
+  border: #acacac solid 1px; 
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  width: 88%;
+  height: 25px;
+  /*color: #b4b4b4;*/
+  color:#303030;
+  font-size: 14px;
+  padding-left: 12px;
+  margin-top: 0px;
+  margin-bottom: -1px;
+}
+
+.boton-fake{
+  position:fixed;
+  left:-9999px;
+}
+
+.boton{
+  background: rgb(170,206,0); /* Old browsers */
+  border:1px solid #5b754a;
+  width: 120px;
+  height: 23px;
+  display: block;
+  margin:5px 0px 0px 0px;
+  cursor: pointer;
+  text-align:center;
+  font-size:12px;
+  text-decoration:none;  
+  line-height:27px;
+  color:#4a5d1d;
+}
+
+.botonrecover{
+  background: rgb(170,206,0); /* Old browsers */
+  border:1px solid #5b754a;
+  width: 180px;
+  height: 23px;
+  display: block;
+  margin:5px 0px 0px 0px;
+  cursor: pointer;
+  text-align:center;
+  font-size:12px;
+  text-decoration:none;  
+  line-height:27px;
+  color:#4a5d1d;
+}
+
+.infoverification{
+  color: #505050;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: auto;   
+  margin-right: auto;
+}
+
+

@@ -1,0 +1,278 @@
+/* CSS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: #bccecf;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+#wrapper{
+  width: 980px;
+  margin:0px auto;
+}
+
+/* -- HEADER -- */
+#header{
+  position:relative;
+}
+
+.logo{
+  background: url(/img/logo-circunecto.png) no-repeat left top;
+  width: 295px;
+  height: 100px;
+  text-indent: -9999px;
+  position: relative;
+  z-index: 1000;
+  top: 10px;
+  margin-left: auto;   
+  margin-right: auto;
+}
+
+/* -- END HEADER -- */
+
+
+/* -- BEGIN CONTENT -- */
+#content{
+  min-height:550px;
+  background: url(/img/img-division.png) no-repeat center top #fff;
+  margin-top: -30px;
+  position: relative;
+}
+
+#content-top{
+  width: 500px;
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0 auto;
+  padding-top: 55px;
+}
+	.text-bold{
+	  font-size: 24px;
+	  font-weight: bold;
+	}
+	.text-green{
+	  color: #95ba01;
+	/*  line-height: auto;
+	*/  margin:10px 0px 47px;
+	  display:block;
+	}
+
+
+#images-wrapper{
+  width: 920px;
+  margin-top: 0px;
+  position: relative;
+  /*Con esto se posiciona la capa encima de todas*/
+  z-index: 200;
+  padding-left: 0px;
+  top:0px;
+}
+
+	#img-unete{
+	  position:absolute;
+	  left:150px;
+	  top:-20px;
+	}
+	
+	#img-cuentanos{
+	  position:absolute;
+	  left:420px;
+	  top:-20px;
+	}
+	
+	#img-conectate{
+	  position:absolute;
+	  left:750px;
+	  top:-20px;
+	}
+
+
+#info-bottom-wrapper{
+  background: url(/img/green-background-long.png) no-repeat left top;
+  width: 980px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+}
+	.secciones{
+	  width: 265px;
+	  float: left;
+	  padding: 60px 30px 70px 30px;
+	}
+		.heading-text{
+		  color: #fff;
+		  font-size: 30px;
+		  text-align: center;
+		  font-weight: normal;
+		  padding-bottom: 20px;
+		  text-shadow: 2px 1px 3px #555;
+		  -moz-text-shadow: 2px 1px 3px #555;
+		  -webkit-text-shadow: 2px 1px 3px #555;
+		  letter-spacing: -1px;
+		}
+		
+		.info-seccion-peq {
+		  text-align:left;
+		  color: #ffc;
+		  font-size: 12px;
+		  font-weight: normal;
+		  /*width: 200px;*/
+		  margin-left: auto;   
+  		  margin-right: auto;
+		}
+		
+		.info-seccion{
+		  color: #ffc;
+		  font-size: 14px;
+		  font-weight: normal;
+		  width: 265px;
+		}
+			.resaltar{
+			  color: #cf0;
+			}
+			
+		.login-mesg{
+		  color: #FF2222;
+		  font-size: 12px;
+		  font-weight: normal;
+		  width: 265px;
+		}
+			.login-mesg-link{
+			  color: #cf0;
+			}
+
+.login-username{
+	background: url(images/bg-input.png) repeat-x left top;
+	border: #acacac solid 1px; 
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	width: 150px;
+	height: 25px;
+	/*color: #b4b4b4;*/
+	color:#303030;
+	font-size: 12px;
+	padding-left: 2px;
+	margin-top: 0px;
+	margin-bottom: -1px;
+  
+	/*width:150px; 
+	background-color: #f0f0f0;
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	font-style:italic;
+	color:#444;*/
+}
+
+
+.login-password{
+	background: url(images/bg-input.png) repeat-x left top;
+	border: #acacac solid 1px; 
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	width: 150px;
+	height: 25px;
+	/*color: #b4b4b4;*/
+	color:#303030;
+	font-size: 12px;
+	padding-left: 2px;
+	margin-top: 0px;
+	margin-bottom: -1px;
+}
+
+.boton-ingresar-fake{
+  position:fixed;
+  left:-9999px;
+}
+
+.boton-ingresar{
+  background: rgb(170,206,0); /* Old browsers */
+  border:1px solid #5b754a;
+  width: 70px;
+  height: 23px;
+  display: block;
+  margin:5px 0px 0px 0px;
+  cursor: pointer;
+  text-align:center;
+  font-size:12px;
+  text-decoration:none;  
+  line-height:27px;
+  color:#4a5d1d;
+}
+
+.boton-registrar{
+  background: rgb(170,206,0); /* Old browsers */
+  border:1px solid #5b754a;
+  width: 127px;
+  height: 23px;
+  display: block;
+  margin:5px 0px 0px 0px;
+  cursor: pointer;
+  text-align:center;
+  font-size:12px;
+  text-decoration:none;  
+  line-height:27px;
+  color:#4a5d1d;
+}
+
+/* -- END CONTENT -- */
+
+
+/* -- BEGIN FOOTER -- */
+
+#footer{
+  position: relative;
+  height: 50px;
+  top:1px;
+  color: #cf0;
+}
+.footer-info{
+  color: #7b9293;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 30px;
+}
+.footer-info span{
+  font-weight: bold;
+}
+.footer-info:last-child{
+  border-right: none;
+}
+.footer-logo{
+  /*setting image*/
+  background: url(/img/circunecto-footer.png) no-repeat left top;
+  width: 120px;
+  height: 47px;
+  
+  /*positioning the image to the right*/
+  display: block;
+  right: 0px;
+  top: 5px;
+  position: absolute; 
+  /*this will hide the text*/ 
+  text-indent: -9999px;
+}
+
+/* -- END FOOTER -- */
+
+/* botones */
+
+  /*background: -moz-linear-gradient(top, rgba(170,206,0,1) 0%, rgba(132,159,0,1) 100%); /* FF3.6+ */
+  /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(170,206,0,1)), color-stop(100%,rgba(132,159,0,1))); 
+  /*Chrome,Safari4+ */
+  /*background: -webkit-linear-gradient(top, rgba(170,206,0,1) 0%,rgba(132,159,0,1) 100%); /* Chrome10+,Safari5.1+ */
+  /*background: -o-linear-gradient(top, rgba(170,206,0,1) 0%,rgba(132,159,0,1) 100%); /* Opera 11.10+ */
+  /*background: -ms-linear-gradient(top, rgba(170,206,0,1) 0%,rgba(132,159,0,1) 100%); /* IE10+ */
+  /*background: linear-gradient(top, rgba(170,206,0,1) 0%,rgba(132,159,0,1) 100%); /* W3C */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aace00', endColorstr='#849f00',GradientType=0 ); /* IE6-9 */
+
